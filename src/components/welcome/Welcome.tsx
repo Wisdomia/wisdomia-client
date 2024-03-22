@@ -1,8 +1,19 @@
 import React from 'react'
+import styles from './welcome.module.css'
+import CustomButton from '../custom-buttom/CustomButton'
 
 const Welcome = () => {
   return (
-    <div>Welcome To Wisdomia</div>
+    <div className={`${styles.welcome}`}>
+      Welcome To <br />
+      <span className={`${styles.wisdomia}`}>
+        Wisdomia
+      </span>
+      <p>
+        Your next step to success and <br/> strong mindset!
+      </p>
+      <CustomButton style='buyNowButton' text='Buy Now' link=''/>
+    </div>
   )
 }
 

@@ -1,16 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Odor+Mean+Chey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=IM+Fell+French+Canon+SC&display=swap');
 
-*{
-    font-family: "Odor Mean Chey", serif;
+* {
+    font-family: "Fascinate", serif;
+    font-family: "Fell French Canon SC";
     font-weight: 400;
     font-style: normal;
     box-sizing: border-box;
-    color: white;
 }
-html,body{
+
+html,
+body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden; 
+    overflow-x: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,11 +24,30 @@ html,body{
     flex-direction: column;
     margin: 0 auto;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
-@media (max-width:330px){
-    .mainLayout{
+.home {
+    width: 100%;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-left: 1px solid white;
+}
+
+
+
+@media (max-width:330px) {
+    .mainLayout {
         width: 100%;
     }
 }

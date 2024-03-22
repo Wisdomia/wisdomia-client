@@ -1,7 +1,7 @@
 .customButton{
     background-color: black;
     color: white;
-    padding: 10px 20px;
+    padding: 1rem 3rem;
     border: 1px solid white;
     cursor: pointer;
     font-size: 1.2rem;
@@ -11,3 +11,4 @@
     background-color: white;
     color: black;
 }
+
