@@ -1,6 +1,7 @@
 .welcome {
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
+    font-size: clamp(2rem, 1.8rem + 1vw, 3rem);
     text-align: center;
     padding: 7rem 0rem;
     width: 100%;
@@ -8,6 +9,7 @@
 }
 
 .wisdomia{
-    font-size: 4rem;
+    font-size: 2.5rem;
+    font-size: clamp(2.5rem, 2.4rem + 0.5vw, 3rem);
 }
 

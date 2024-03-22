@@ -46,7 +46,7 @@ body {
 
 
 
-@media (max-width:330px) {
+@media (max-width:500px) {
     .mainLayout {
         width: 100%;
     }

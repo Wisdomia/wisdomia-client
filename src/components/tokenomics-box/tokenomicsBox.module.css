@@ -1,0 +1,34 @@
+.tokenomicsBox {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: white;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+.data {
+    font-size: 2.5rem;
+}
+
+.dataList {
+    font-size: 2rem;
+    list-style-type:square;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.dataList>li{
+    padding: 1rem;
+    min-width: 500px;
+}
+
+.tokenDetails{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
