@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './topbar.module.css'; 
+import CustomButton from '../custom-buttom/CustomButton';
 
 const TopBar: React.FC = () => {
   return (
@@ -8,7 +9,7 @@ const TopBar: React.FC = () => {
         <img src="/path-to-your-logo.png" alt="Logo" className={styles.logo} />
         <span className={styles.companyName}>$WSDM</span>
       </div>
-      <button>Buy Now</button>
+      <CustomButton text='Buy Now' link=''/>
     </header>
   );
 };
