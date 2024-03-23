@@ -14,6 +14,7 @@ const Welcome = () => {
       </p>
       <CustomButton text='Buy Now' link=''/>
     </div>
+    
   )
 }
 
