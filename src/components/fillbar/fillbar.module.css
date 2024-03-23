@@ -1,0 +1,58 @@
+.container {
+    width: 88%;
+    background-color: transparent;
+    border: 1px solid white;
+    height: 20px;
+    overflow: hidden;
+    max-width: 600px;
+}
+
+.fill {
+    height: 100%;
+    background-color: white;
+    transition: width 0.3s ease-in-out;
+}
+
+@media (max-width:1300px) {
+    .container{
+        max-width: 400px;
+    }
+}
+
+@media (max-width:1020px) {
+    .container{
+        max-width: 200px;
+    }
+}
+
+@media (max-width:1020px) {
+    .container{
+        max-width: 300px;
+    }
+}
+
+
+@media (max-width:650px) {
+    .container{
+        max-width: 160px;
+    }
+}
+
+@media (max-width:425px){
+    .container{
+        max-width: 220px;
+    }
+}
+
+@media (max-width:360px){
+    .container{
+        max-width: 155px;
+    }
+}
+
+
+@media (max-width:290px){
+    .container{
+        max-width: 135px;
+    }
+}

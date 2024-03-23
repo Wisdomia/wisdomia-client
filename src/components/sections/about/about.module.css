@@ -27,7 +27,10 @@
 
 @media (max-width:560px){
     .about{
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
+        text-align: center;
     }
     .right{
         min-height: 200px;

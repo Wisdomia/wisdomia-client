@@ -4,18 +4,24 @@
     justify-content: flex-end;
     color: white;
     flex-direction: column;
+    padding: 1rem;
+    padding-right: 0;
+    width: 100%;
 }
 
 .title {
-    font-size: 4rem;
+    font-size: 2rem;
+    font-size: clamp(2rem, 1.6rem + 2vw, 4rem);
 }
 
 .data {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 1.3rem + 1vw, 2.5rem);
 }
 
 .dataList {
-    font-size: 2rem;
+    font-size: 1.3rem;
+    font-size: clamp(1.3rem, 1.1600000000000001rem + 0.7vw, 2rem);
     list-style-type:square;
     padding-left: 20px;
     width: 100%;
@@ -23,12 +29,47 @@
 
 .dataList>li{
     padding: 1rem;
-    min-width: 500px;
+}
+
+.allocation{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
 }
 
 .tokenDetails{
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 1rem;
+    white-space: nowrap;
+}
+
+@media (max-width:580px){
+
+}
+
+@media (max-width:425px){
+    .allocation{
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .tokenDetails{
+        flex-direction: column;
+        gap: 0.3rem;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .dataList{
+        list-style-type:none;
+    }
+
+    .tokenomicsBox{
+        justify-content: center;
+        align-items: center;
+    }
 }

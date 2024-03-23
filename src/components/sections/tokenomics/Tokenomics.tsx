@@ -3,6 +3,7 @@ import styles from './tokenomics.module.css'
 import Box from '@/components/box/Box'
 import TokenomicsBox from '@/components/tokenomics-box/TokenomicsBox'
 import { ITokenomicBoxProps } from '@/types'
+import FillBar from '@/components/fillbar/Fillbar'
 
 const allocationData:ITokenomicBoxProps[] = [{
   name:"Liquidity",
@@ -22,12 +23,7 @@ const allocationData:ITokenomicBoxProps[] = [{
 const Tokenomics = () => {
   return (
     <div className={`${styles.tokenomics}`}>
-      <div className={`${styles.left}`}>
-        Distribution Chart
-      </div>
-      <div className={`${styles.right}`}>
         <TokenomicsBox data={allocationData} />
-      </div>
     </div>
   )
 }
