@@ -13,9 +13,29 @@
     flex: 1;
     position: relative;
     width: 100%;
-    aspect-ratio: 1;
+    min-height: 300px;
+}
+
+.right > Image {
+    height: 100%;
+    object-fit: contain; 
 }
 
 .left{
     flex: 1;
+}
+
+@media (max-width:560px){
+    .about{
+        flex-direction: column;
+    }
+    .right{
+        min-height: 200px;
+    }
+}
+
+@media (max-width:800px) {
+    .about{
+        padding: 1rem;
+    }
 }

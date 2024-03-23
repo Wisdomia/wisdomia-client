@@ -27,7 +27,8 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <h1>Wisdomia</h1>
-      <span>2024© Wisdomia LLC | All Rights Reserver</span>
+      <span>2024© Wisdomia LLC</span>
+      <span style={{marginTop:'0.3rem'}}>All Rights Reserver</span>
       <section className={styles.textButtons}>
         <TextButton scrollFn={scrollToRef} refElement={welcomeRef} text='Buy Now'/>
         <TextButton scrollFn={scrollToRef} refElement={aboutRef} text='About'/>

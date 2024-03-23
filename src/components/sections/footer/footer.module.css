@@ -4,6 +4,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    white-space: nowrap;
+    width: 100%;
 }
 
 .textButtons{
@@ -27,4 +29,17 @@
 
 .socialImage{
     cursor: pointer;
+}
+
+
+@media (max-width:815px){
+    .textButtons{
+        gap: 0;
+    }
+}
+
+@media (max-width:432px){
+    .textButtons{
+        flex-direction: column;
+    }
 }

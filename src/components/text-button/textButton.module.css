@@ -7,3 +7,16 @@
 .textButton:hover{
     border: 1px solid white;
 }
+
+@media (max-width:525px){
+    .textButton{
+        padding: 0.3rem;
+    }   
+}
+
+@media (max-width:432px){
+    .textButton{
+        min-width: 200px;
+        text-align: center;
+    }
+}

@@ -9,6 +9,7 @@ const checkpoints = [
  { roadmapCheckpoint: 'Launch $WSDM Token', isDone: false },
  { roadmapCheckpoint: 'Add Liquidity', isDone: false },
  { roadmapCheckpoint: 'CEX Listing', isDone: false },
+ { roadmapCheckpoint: 'Open Source Github', isDone: false },
  { roadmapCheckpoint: 'Wisdomia Platform', isDone: false }
 ]
 
