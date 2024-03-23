@@ -1,0 +1,12 @@
+.roadmap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.roadmap > h1 {
+        font-size: 2rem;
+        font-size: clamp(2rem, 1.6rem + 2vw, 4rem);
+}
