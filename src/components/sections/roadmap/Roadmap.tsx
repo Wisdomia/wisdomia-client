@@ -13,9 +13,9 @@ const checkpoints = [
  { roadmapCheckpoint: 'Wisdomia Platform', isDone: false }
 ]
 
-const Roadmap = () => {
+const Roadmap = ({ innerRef }:{innerRef:any}) => {
   return (
-    <div className={styles.roadmap}>
+    <div ref={innerRef}  className={styles.roadmap}>
       <h1>Roadmap</h1>
       <RoadmapLine checkpoints={checkpoints} />
     </div>

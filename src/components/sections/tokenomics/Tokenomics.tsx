@@ -20,9 +20,9 @@ const allocationData:ITokenomicBoxProps[] = [{
 }
 ]
 
-const Tokenomics = () => {
+const Tokenomics = ({ innerRef }:{innerRef:any}) => {
   return (
-    <div className={`${styles.tokenomics}`}>
+    <div ref={innerRef}  className={`${styles.tokenomics}`}>
         <TokenomicsBox data={allocationData} />
     </div>
   )

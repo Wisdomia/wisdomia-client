@@ -3,9 +3,9 @@ import styles from './about.module.css'
 import Box from '@/components/box/Box'
 import Image from 'next/image'
 
-const About = () => {
+const About = ({ innerRef }:{innerRef:any}) => {
   return (
-    <section className={`${styles.about}`}>
+    <section ref={innerRef}  className={`${styles.about}`}>
         <div className={`${styles.left}`}>
             <Box title={"About"} text={"$WSDM is a crypto utility token which provides access to the best in-class motivational wisdoms and quotes from the world elite performers!"} />
         </div>

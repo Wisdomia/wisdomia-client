@@ -7,7 +7,6 @@ interface ScrollContextType {
     tokenomicsRef: React.RefObject<HTMLDivElement>;
     benefitsRef: React.RefObject<HTMLDivElement>;
     roadmapRef: React.RefObject<HTMLDivElement>;
-    footerRef: React.RefObject<HTMLDivElement>;
     scrollToRef: (ref: React.RefObject<HTMLDivElement>) => void;
   }
 
@@ -27,7 +26,6 @@ export function ScrollProvider({ children }: { children: React.ReactNode }) {
     const tokenomicsRef = useRef<HTMLDivElement>(null);
     const benefitsRef = useRef<HTMLDivElement>(null);
     const roadmapRef = useRef<HTMLDivElement>(null);
-    const footerRef = useRef<HTMLDivElement>(null);
 
     const scrollToRef = (ref: React.RefObject<HTMLDivElement>) => {
         if (ref.current) {
@@ -41,7 +39,6 @@ export function ScrollProvider({ children }: { children: React.ReactNode }) {
         tokenomicsRef,
         benefitsRef,
         roadmapRef,
-        footerRef,
         scrollToRef,
     };
 

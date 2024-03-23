@@ -2,9 +2,9 @@ import React from 'react'
 import styles from './welcome.module.css'
 import CustomButton from '../custom-buttom/CustomButton'
 
-const Welcome = () => {
+const Welcome = ({ innerRef }:{innerRef:any}) => {
   return (
-    <div className={`${styles.welcome}`}>
+    <div ref={innerRef} className={`${styles.welcome}`}>
       Welcome To <br />
       <span className={`${styles.wisdomia}`}>
         Wisdomia
