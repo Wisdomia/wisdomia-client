@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './roadmapLine.module.css';
+import Image from 'next/image';
 
 interface Checkpoint {
   roadmapCheckpoint: string;
@@ -28,6 +29,7 @@ const RoadmapLine: React.FC<RoadmapLineProps> = ({ checkpoints }) => {
       {checkpoints.map((checkpoint, index) => (
         <div className={styles.checkpoint} style={{ top: `${(index / checkpoints.length) * 100}%` }} key={index}>
           <CheckpointCircle isDone={checkpoint.isDone} />
+          <Image style={{ filter: checkpoint.isDone?"invert(100)":'', marginLeft: '20px' }} src={'/tick.png'} width={30} height={30} alt='tick' />
           <span>{checkpoint.roadmapCheckpoint}</span>
         </div>
       ))}

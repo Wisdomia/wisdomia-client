@@ -3,3 +3,8 @@ export interface ITokenomicBoxProps{
     allocation:number
 }
   
+
+export interface IFooterLinkData{
+    name:string,
+    link:string,
+}
