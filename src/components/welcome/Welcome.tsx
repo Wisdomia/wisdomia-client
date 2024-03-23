@@ -12,7 +12,7 @@ const Welcome = () => {
       <p>
         Your next step to success and <br/> strong mindset!
       </p>
-      <CustomButton style='buyNowButton' text='Buy Now' link=''/>
+      <CustomButton text='Buy Now' link=''/>
     </div>
   )
 }
