@@ -1,0 +1,9 @@
+.textButton{
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.textButton:hover{
+    border: 1px solid white;
+}

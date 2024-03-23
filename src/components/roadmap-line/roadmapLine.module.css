@@ -44,3 +44,10 @@
   margin-left: 10px;
   white-space: nowrap;
 }
+
+
+@media (max-width:450px){
+    .checkpoint span{
+    white-space: wrap;
+    }
+}

@@ -32,3 +32,10 @@
     padding: 1rem 1rem;
   }
 }
+
+@media (max-width:380px){
+  .topBar{
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
