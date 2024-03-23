@@ -9,3 +9,13 @@
     border-bottom: 1px solid white;
 }
 
+.right{
+    flex: 1;
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+.left{
+    flex: 1;
+}

@@ -9,7 +9,7 @@ const TopBar: React.FC = () => {
         <img src="/path-to-your-logo.png" alt="Logo" className={styles.logo} />
         <span className={styles.companyName}>$WSDM</span>
       </div>
-      <CustomButton text='Launch App' link=''/>
+      <CustomButton text='Launch App' link='https://app.wisdomia.vip'/>
     </header>
   );
 };
