@@ -39,8 +39,8 @@ const Footer = () => {
         <TextButton scrollFn={scrollToRef} refElement={roadmapRef} text='Roadmap'/>
       </section>
       <section className={styles.socials}>
-        <Image onClick={()=>{handleClick("https://google.com")}} className={styles.socialImage} src={'/telegram.png'} width={30} height={30} alt='telegram'/>
-        <Image onClick={()=>{handleClick("https://google.com")}} className={styles.socialImage} src={'/twitter.png'} width={40} height={40} alt='twitter'/>
+        <Image onClick={()=>{handleClick("https://t.me/+7I_ONqmmxZE0MmU0")}} className={styles.socialImage} src={'/telegram.png'} width={30} height={30} alt='telegram'/>
+        <Image onClick={()=>{handleClick("https://twitter.com/wisdomiacoin")}} className={styles.socialImage} src={'/twitter.png'} width={40} height={40} alt='twitter'/>
       </section>
     </footer>
   )
