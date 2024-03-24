@@ -52,7 +52,7 @@ const TokenContract = () => {
                 <TokenInfo title='Address' data={displayedAddress} isAddress={true}/>
                 </div>
             </div>
-            <h2>Do not directly sending any tokens to this address, as it could lead to the irreversible loss of your funds.</h2>
+            <h2>Do not directly send any tokens to this address, as it could lead to the irreversible loss of your funds.</h2>
         </div>
     )
 }
