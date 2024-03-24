@@ -8,13 +8,20 @@
     border: 1px solid white;
 }
 
+@media (max-width:900px){
+    .textButton{
+        padding: 0.4rem;
+    } 
+}
+
+
 @media (max-width:525px){
     .textButton{
         padding: 0.3rem;
     }   
 }
 
-@media (max-width:432px){
+@media (max-width:540px){
     .textButton{
         min-width: 200px;
         text-align: center;

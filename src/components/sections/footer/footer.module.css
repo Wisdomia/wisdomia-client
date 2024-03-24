@@ -32,13 +32,13 @@
 }
 
 
-@media (max-width:815px){
+@media (max-width:1000px){
     .textButtons{
         gap: 0;
     }
 }
 
-@media (max-width:432px){
+@media (max-width:540px){
     .textButtons{
         flex-direction: column;
     }

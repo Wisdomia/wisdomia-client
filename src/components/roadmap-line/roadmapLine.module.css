@@ -47,7 +47,18 @@
 
 
 @media (max-width:450px){
-    .checkpoint span{
-    white-space: wrap;
-    }
+  .roadmapLine{
+    transform: translateX(-4rem);
+  }
+}
+
+
+@media (max-width:325px){
+  .roadmapLine{
+    transform: translateX(-5.5rem);
+  }
+  .checkpoint >span{
+    margin-left: 5px;
+  }
+
 }
