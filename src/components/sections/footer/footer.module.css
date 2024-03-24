@@ -6,6 +6,8 @@
     flex-direction: column;
     white-space: nowrap;
     width: 100%;
+    padding: 6rem 0;
+    padding-bottom: 1rem;
 }
 
 .textButtons{
@@ -41,5 +43,12 @@
 @media (max-width:540px){
     .textButtons{
         flex-direction: column;
+    }
+}
+
+
+@media (max-width:800px) {
+    .footer {
+        padding: 1rem;
     }
 }

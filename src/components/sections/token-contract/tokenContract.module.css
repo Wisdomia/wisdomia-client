@@ -1,4 +1,4 @@
-.tokenContract{
+.tokenContract {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,22 +6,21 @@
     color: white;
     flex-direction: column;
     padding: 7rem;
-    padding-top: 0;
     border-bottom: 1px solid white;
     text-align: center;
 }
 
-.tokenContract >h1{
-    font-size: 1.3rem;
-    font-size: clamp(1.3rem, 1.1rem + 0.9999999999999999vw, 2.3rem);
+.tokenContract>h1 {
+    font-size: 2rem;
+    font-size: clamp(2rem, 1.6rem + 2vw, 4rem);
 }
 
-.tokenContract > span{
+.tokenContract>span {
     font-size: 1rem;
     font-size: clamp(1rem, 0.88rem + 0.6000000000000001vw, 1.6rem);
 }
 
-.tokenInfos{
+.tokenInfos {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +30,7 @@
     flex-direction: column;
 }
 
-.tokenInfosBasics{
+.tokenInfosBasics {
     width: 100%;
     display: flex;
     align-items: center;
@@ -48,45 +47,53 @@
     flex-direction: column;
 }
 
-.tiTtile{
+.tiTtile {
     font-size: 1.2rem;
     font-size: clamp(1.2rem, 0.9999999999999999rem + 1.0000000000000002vw, 2.2rem);
 }
 
-.tiData{
+.tiData {
     font-size: 1rem;
     font-size: clamp(1rem, 0.8rem + 1vw, 2rem);
 }
 
-.addressHolder{
+.addressHolder {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.addrAndCopy{
+.addrAndCopy {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.7rem;
 }
 
-@media (max-width:450px){
-    .tokenContract{
+@media (max-width:450px) {
+    .tokenContract {
         padding: 1rem;
     }
-    .tokenInfosBasics{
+
+    .tokenInfosBasics {
         gap: 1rem;
     }
 }
 
-@media (max-width:450px){
-    .tokenInfosBasics{
+@media (max-width:450px) {
+    .tokenInfosBasics {
         flex-direction: column;
         gap: 0;
     }
-    .tokenInfo{
+
+    .tokenInfo {
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media (max-width:800px) {
+    .tokenContract {
+        padding: 1rem;
     }
 }
