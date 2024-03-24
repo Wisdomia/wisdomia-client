@@ -6,7 +6,7 @@ const TopBar: React.FC = () => {
   return (
     <header className={styles.topBar}>
       <div className={styles.logoContainer}>
-        <img src="/path-to-your-logo.png" alt="Logo" className={styles.logo} />
+        <img src="/token.png" alt="Logo" className={styles.logo} />
         <span className={styles.companyName}>$WSDM</span>
       </div>
       <CustomButton text='Launch App' link='https://app.wisdomia.vip'/>
