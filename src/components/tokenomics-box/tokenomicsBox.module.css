@@ -6,6 +6,7 @@
     flex-direction: column;
     padding: 1rem;
     padding-right: 0;
+    padding-left: 0;
     width: 100%;
 }
 
@@ -22,8 +23,8 @@
 .dataList {
     font-size: 1.3rem;
     font-size: clamp(1.3rem, 1.1600000000000001rem + 0.7vw, 2rem);
-    list-style-type:square;
-    padding-left: 20px;
+    list-style-type:none;
+    padding-left:1px;
     width: 100%;
 }
 
