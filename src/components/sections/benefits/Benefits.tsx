@@ -10,7 +10,7 @@ const Benefits = ({ innerRef }:{innerRef:any}) => {
             <Box title={"Benefits"} text={"Elevate your spirit and rise to new heights! By Holding the $WSDM token, you gain a special access to all features on this platform."} />
         </div>
         <div className={`${styles.right}`}>
-            <Image src={'/benefits.png'} width={400} height={400} alt='benefits'/>
+            <Image src={'/benefits.png'} layout='fill' objectFit='contain' alt='benefits'/>
         </div>
     </section>
   )

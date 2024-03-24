@@ -9,3 +9,36 @@
     border-bottom: 1px solid white;
 }
 
+.right{
+    flex: 1;
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+}
+
+.right > Image {
+    height: 100%;
+    object-fit: contain; 
+}
+
+.left{
+    flex: 1;
+}
+
+@media (max-width:560px){
+    .benefits{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .right{
+        min-height: 200px;
+    }
+}
+
+@media (max-width:800px) {
+    .benefits{
+        padding: 1rem;
+    }
+}
