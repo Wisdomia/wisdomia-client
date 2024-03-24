@@ -9,6 +9,7 @@ const checkpoints = [
  { roadmapCheckpoint: 'Launch $WSDM Token', isDone: false },
  { roadmapCheckpoint: 'Add Liquidity', isDone: false },
  { roadmapCheckpoint: 'Coingecko Listing', isDone: false },
+ { roadmapCheckpoint: 'FAQ & Support Desk', isDone: false },
  { roadmapCheckpoint: 'Dex Screener Listing', isDone: false },
  { roadmapCheckpoint: 'Dex Tools Listing', isDone: false },
  { roadmapCheckpoint: 'CoinMarketCap Listing', isDone: false },

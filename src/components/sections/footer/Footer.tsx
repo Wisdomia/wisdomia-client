@@ -6,6 +6,7 @@ import { IFooterLinkData } from '@/types'
 import { useScroll } from '@/app/context'
 import TextButton from '@/components/text-button/TextButton'
 import Image from 'next/image'
+import CustomButton from '@/components/custom-buttom/CustomButton'
 
 const footerLinkData:IFooterLinkData[] = [
 ]
@@ -26,11 +27,12 @@ const Footer = () => {
 
   return (
     <footer className={styles.footer}>
-      <h1>Wisdomia</h1>
+        <h1>Wisdomia</h1> 
       <span>2024© Wisdomia LLC</span>
       <span style={{marginTop:'0.3rem'}}>All Rights Reserver</span>
       <section className={styles.textButtons}>
         <TextButton scrollFn={scrollToRef} refElement={welcomeRef} text='Buy Now'/>
+        <TextButton scrollFn={scrollToRef} refElement={welcomeRef} text='Launch App' useAsLink={true} link={"https://app.wisdomia.vip"}/>
         <TextButton scrollFn={scrollToRef} refElement={aboutRef} text='About'/>
         <TextButton scrollFn={scrollToRef} refElement={tokenomicsRef} text='Tokenomics'/>
         <TextButton scrollFn={scrollToRef} refElement={benefitsRef} text='Benefits'/>
