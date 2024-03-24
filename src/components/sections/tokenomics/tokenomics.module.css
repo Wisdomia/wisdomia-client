@@ -11,12 +11,22 @@
 }
 
 .tokenomics > p{
-    font-size: 2rem;
+    font-size: 1.2rem;
+    font-size: clamp(1.2rem, 0.9999999999999999rem + 1.0000000000000002vw, 2.2rem);
     width: 100%;
 }
 
 @media (max-width:800px) {
     .tokenomics{
         padding: 1rem 1rem;
+    }
+
+
+}
+
+
+@media (max-width:425px) {
+    .tokenomics > p{
+        text-align: center;
     }
 }
