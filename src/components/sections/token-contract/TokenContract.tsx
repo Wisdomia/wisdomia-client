@@ -1,12 +1,17 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 import styles from './tokenContract.module.css'
+import CustomButton from '@/components/custom-buttom/CustomButton'
+import CopyButton from '@/components/copy-button/CopyButton'
 
-const TokenInfo = ({ title, data }: { title: string, data: string }) => {
+const TokenInfo = ({ title, data, isAddress = false }: { title: string, data: string,isAddress?:boolean }) => {
     return (
         <div className={styles.tokenInfo}>
             <span className={styles.tiTtile}>{title}:</span>
+            <div className={styles.addrAndCopy}>
             <span className={styles.tiData}>{data}</span>
+            {isAddress && <CopyButton addr={data}/>}
+            </div>
         </div>
     )
 }
@@ -43,7 +48,9 @@ const TokenContract = () => {
                 <TokenInfo title='Token Symbol' data='WSDM' />
                 <TokenInfo title='Decimal' data='18' />
                 </div>
-                <TokenInfo title='Address' data={displayedAddress} />
+                <div className={styles.addressHolder}>
+                <TokenInfo title='Address' data={displayedAddress} isAddress={true}/>
+                </div>
             </div>
             <h2>Do not directly sending any tokens to this address, as it could lead to the irreversible loss of your funds.</h2>
         </div>

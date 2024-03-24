@@ -58,6 +58,18 @@
     font-size: clamp(1rem, 0.8rem + 1vw, 2rem);
 }
 
+.addressHolder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addrAndCopy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+}
 
 @media (max-width:450px){
     .tokenContract{

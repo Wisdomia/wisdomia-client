@@ -22,6 +22,7 @@ const Tokenomics = ({ innerRef }:{innerRef:any}) => {
   return (
     <div ref={innerRef}  className={`${styles.tokenomics}`}>
         <TokenomicsBox data={allocationData} />
+        <p>Total Supply: 600.000.000</p>
     </div>
   )
 }
