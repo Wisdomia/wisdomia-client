@@ -7,7 +7,7 @@ const checkpoints = [
  { roadmapCheckpoint: 'Create Twitter', isDone: true },
  { roadmapCheckpoint: 'Build Website', isDone: true },
  { roadmapCheckpoint: 'Launch $WSDM Token', isDone: false },
- { roadmapCheckpoint: 'Add Liquidity', isDone: false },
+ { roadmapCheckpoint: 'Raydium Listing', isDone: false },
  { roadmapCheckpoint: 'Coingecko Listing', isDone: false },
  { roadmapCheckpoint: 'FAQ & Support Desk', isDone: false },
  { roadmapCheckpoint: 'Dex Screener Listing', isDone: false },
@@ -21,7 +21,7 @@ const checkpoints = [
 const Roadmap = ({ innerRef }:{innerRef:any}) => {
   return (
     <div ref={innerRef}  className={styles.roadmap}>
-      <h1>Roadmap</h1>
+      <span>Roadmap</span>
       <RoadmapLine checkpoints={checkpoints} />
     </div>
   )
