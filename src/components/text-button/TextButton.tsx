@@ -11,7 +11,6 @@ const TextButton = ({text,refElement,scrollFn,useAsLink,link}:{text:string,refEl
     scrollFn(refElement);
   } 
 
-  console.info(refElement)
   return (
     <div 
     onClick={handleClick}

@@ -7,6 +7,7 @@ import Roadmap from "@/components/sections/roadmap/Roadmap";
 import Tokenomics from "@/components/sections/tokenomics/Tokenomics";
 import Welcome from "@/components/welcome/Welcome";
 import { ScrollProvider, useScroll } from "./context"; 
+import TokenContract from '@/components/sections/token-contract/TokenContract';
 
 const Sections = () => {
   const { welcomeRef, aboutRef, tokenomicsRef, benefitsRef, roadmapRef } = useScroll();
@@ -18,6 +19,7 @@ const Sections = () => {
       <Tokenomics innerRef={tokenomicsRef} />
       <Benefits innerRef={benefitsRef} />
       <Roadmap innerRef={roadmapRef} />
+      <TokenContract/>
       <Footer />
     </>
   );

@@ -1,0 +1,80 @@
+.tokenContract{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    color: white;
+    flex-direction: column;
+    padding: 7rem;
+    padding-top: 0;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.tokenContract >h1{
+    font-size: 1.3rem;
+    font-size: clamp(1.3rem, 1.1rem + 0.9999999999999999vw, 2.3rem);
+}
+
+.tokenContract > span{
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.88rem + 0.6000000000000001vw, 1.6rem);
+}
+
+.tokenInfos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-top: none;
+    flex-direction: column;
+}
+
+.tokenInfosBasics{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tokenInfo {
+    padding: 1rem 0;
+    white-space: nowrap;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.tiTtile{
+    font-size: 1.2rem;
+    font-size: clamp(1.2rem, 0.9999999999999999rem + 1.0000000000000002vw, 2.2rem);
+}
+
+.tiData{
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.8rem + 1vw, 2rem);
+}
+
+
+@media (max-width:450px){
+    .tokenContract{
+        padding: 1rem;
+    }
+    .tokenInfosBasics{
+        gap: 1rem;
+    }
+}
+
+@media (max-width:450px){
+    .tokenInfosBasics{
+        flex-direction: column;
+        gap: 0;
+    }
+    .tokenInfo{
+        justify-content: center;
+        align-items: center;
+    }
+}
