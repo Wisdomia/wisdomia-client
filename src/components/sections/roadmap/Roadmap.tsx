@@ -13,7 +13,7 @@ const checkpoints = [
  { roadmapCheckpoint: 'Dex Screener Listing', isDone: false },
  { roadmapCheckpoint: 'Dex Tools Listing', isDone: false },
  { roadmapCheckpoint: 'CoinMarketCap Listing', isDone: false },
- { roadmapCheckpoint: 'CEX Listing', isDone: false },
+ { roadmapCheckpoint: 'CEX Listing (MEXC)', isDone: false },
  { roadmapCheckpoint: 'Open Source Github', isDone: false },
  { roadmapCheckpoint: 'Wisdomia Platform', isDone: false }
 ]
