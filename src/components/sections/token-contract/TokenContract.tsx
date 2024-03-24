@@ -4,13 +4,13 @@ import styles from './tokenContract.module.css'
 import CustomButton from '@/components/custom-buttom/CustomButton'
 import CopyButton from '@/components/copy-button/CopyButton'
 
-const TokenInfo = ({ title, data, isAddress = false }: { title: string, data: string,isAddress?:boolean }) => {
+const TokenInfo = ({ title, data, isAddress = false,fullAddress }: { title: string, data: string,isAddress?:boolean,fullAddress?:string }) => {
     return (
         <div className={styles.tokenInfo}>
             <span className={styles.tiTtile}>{title}:</span>
             <div className={styles.addrAndCopy}>
             <span className={styles.tiData}>{data}</span>
-            {isAddress && <CopyButton addr={data}/>}
+            {isAddress && <CopyButton addr={fullAddress?fullAddress:data}/>}
             </div>
         </div>
     )
@@ -49,7 +49,7 @@ const TokenContract = () => {
                 <TokenInfo title='Decimal' data='18' />
                 </div>
                 <div className={styles.addressHolder}>
-                <TokenInfo title='Address' data={displayedAddress} isAddress={true}/>
+                <TokenInfo title='Address' data={displayedAddress} isAddress={true} fullAddress={fullAddress}/>
                 </div>
             </div>
             <h2>Do not directly send any tokens to this address, as it could lead to the irreversible loss of your funds.</h2>

@@ -3,3 +3,10 @@
     color: white;
     cursor: pointer;
 }
+
+@media (max-width:450px){
+    .copyButton > img{
+        width: 17px !important;
+        height: 17px !important;
+    }
+}
