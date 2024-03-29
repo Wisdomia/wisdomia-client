@@ -7,7 +7,7 @@ const checkpoints = [
  { roadmapCheckpoint: 'Create Twitter', isDone: true },
  { roadmapCheckpoint: 'Build Website', isDone: true },
  { roadmapCheckpoint: 'Launch $WSDM Token', isDone: false },
- { roadmapCheckpoint: 'Raydium Listing', isDone: false },
+ { roadmapCheckpoint: 'Raydium LP', isDone: false },
  { roadmapCheckpoint: 'Coingecko Listing', isDone: false },
  { roadmapCheckpoint: 'FAQ & Support Desk', isDone: false },
  { roadmapCheckpoint: 'Dex Screener Listing', isDone: false },
@@ -15,6 +15,7 @@ const checkpoints = [
  { roadmapCheckpoint: 'CoinMarketCap Listing', isDone: false },
  { roadmapCheckpoint: 'CEX Listing (MEXC)', isDone: false },
  { roadmapCheckpoint: 'Open Source Github', isDone: false },
+ { roadmapCheckpoint: 'Launch Discord', isDone: false },
  { roadmapCheckpoint: 'Wisdomia Platform', isDone: false }
 ]
 
