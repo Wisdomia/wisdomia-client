@@ -30,8 +30,10 @@ const Footer = () => {
         <h1>Wisdomia</h1> 
       <span>2024© Wisdomia</span>
       <span style={{marginTop:'0.3rem'}}>All Rights Reserver</span>
+      <div className={styles.footerBuyButtonHolder}>
+        <CustomButton text='Buy Now' link=''/>
+      </div>
       <section className={styles.textButtons}>
-        <TextButton scrollFn={scrollToRef} refElement={welcomeRef} text='Buy Now'/>
         <TextButton scrollFn={scrollToRef} refElement={welcomeRef} text='Launch App' useAsLink={true} link={"https://app.wisdomia.vip"}/>
         <TextButton scrollFn={scrollToRef} refElement={aboutRef} text='About'/>
         <TextButton scrollFn={scrollToRef} refElement={tokenomicsRef} text='Tokenomics'/>

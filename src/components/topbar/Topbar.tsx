@@ -9,7 +9,7 @@ const TopBar: React.FC = () => {
         <img src="/token.png" alt="Logo" className={styles.logo} />
         <span className={styles.companyName}>$WSDM</span>
       </div>
-      <CustomButton text='Launch App' link='https://app.wisdomia.vip'/>
+      <CustomButton text='Buy Now' link=''/>
     </header>
   );
 };

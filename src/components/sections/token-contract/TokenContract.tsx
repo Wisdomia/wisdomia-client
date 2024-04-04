@@ -20,23 +20,23 @@ const TokenContract = () => {
     const fullAddress = 'Comming soon!';
     const [displayedAddress, setDisplayedAddress] = useState(fullAddress);
 
-    useEffect(() => {
-        const handleResize = () => {
-            const newWidth = window.innerWidth;
-            if (newWidth <= 450) {
-                const shortened = `${fullAddress.substring(0, 5)}...${fullAddress.substring(fullAddress.length - 3)}`;
-                setDisplayedAddress(shortened);
-            } else {
-                setDisplayedAddress(fullAddress);
-            }
-        };
+    // useEffect(() => {
+    //     const handleResize = () => {
+    //         const newWidth = window.innerWidth;
+    //         if (newWidth <= 450) {
+    //             const shortened = `${fullAddress.substring(0, 5)}...${fullAddress.substring(fullAddress.length - 3)}`;
+    //             setDisplayedAddress(shortened);
+    //         } else {
+    //             setDisplayedAddress(fullAddress);
+    //         }
+    //     };
 
-        handleResize();
+    //     handleResize();
 
-        window.addEventListener('resize', handleResize);
+    //     window.addEventListener('resize', handleResize);
 
-        return () => window.removeEventListener('resize', handleResize);
-    }, []);
+    //     return () => window.removeEventListener('resize', handleResize);
+    // }, []);
 
     return (
         <div className={styles.tokenContract}>

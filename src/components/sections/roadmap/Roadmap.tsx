@@ -14,6 +14,7 @@ const checkpoints = [
  { roadmapCheckpoint: 'CoinMarketCap Listing', isDone: false },
  { roadmapCheckpoint: 'CEX Listing (MEXC)', isDone: false },
  { roadmapCheckpoint: 'Open Source Github', isDone: false },
+ { roadmapCheckpoint: 'Create Telegram', isDone: false },
  { roadmapCheckpoint: 'Launch Discord', isDone: false },
  { roadmapCheckpoint: 'Wisdomia Platform', isDone: false }
 ]

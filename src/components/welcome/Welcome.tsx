@@ -12,7 +12,7 @@ const Welcome = ({ innerRef }:{innerRef:any}) => {
       <p>
         Your next step to success and <br/> strong mindset!
       </p>
-      <CustomButton text='Buy Now' link=''/>
+      <CustomButton enabled={true} text='Launch App' link='https://app.wisdomia.vip'/>
     </div>
     
   )

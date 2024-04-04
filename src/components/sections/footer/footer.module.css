@@ -10,6 +10,12 @@
     padding-bottom: 1rem;
 }
 
+.footerBuyButtonHolder{
+    padding: 1.2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0;
+}
+
 .textButtons{
     display: flex;
     align-items: center;
