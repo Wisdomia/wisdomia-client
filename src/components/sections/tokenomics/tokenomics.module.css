@@ -10,10 +10,33 @@
     padding-bottom: 6rem;
 }
 
-.tokenomics > p{
+.learnMore{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.learnMore>button{
+    white-space: nowrap;
+}
+
+.learnMore > p{
     font-size: 1.2rem;
     font-size: clamp(1.2rem, 0.9999999999999999rem + 1.0000000000000002vw, 2.2rem);
     width: 100%;
+}
+
+@media (max-width:400px) {
+    .learnMore > button {
+        padding: 1rem 2rem;
+    }
+}
+
+@media (max-width:330px) {
+    .learnMore{
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 @media (max-width:800px) {
