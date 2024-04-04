@@ -28,7 +28,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
         <h1>Wisdomia</h1> 
-      <span>2024© Wisdomia LLC</span>
+      <span>2024© Wisdomia</span>
       <span style={{marginTop:'0.3rem'}}>All Rights Reserver</span>
       <section className={styles.textButtons}>
         <TextButton scrollFn={scrollToRef} refElement={welcomeRef} text='Buy Now'/>
@@ -39,7 +39,6 @@ const Footer = () => {
         <TextButton scrollFn={scrollToRef} refElement={roadmapRef} text='Roadmap'/>
       </section>
       <section className={styles.socials}>
-        <Image onClick={()=>{handleClick("https://t.me/+AsqgbG2y3iQ5MzZk")}} className={styles.socialImage} src={'/telegram.png'} width={30} height={30} alt='telegram'/>
         <Image onClick={()=>{handleClick("https://twitter.com/wisdomiacoin")}} className={styles.socialImage} src={'/twitter.png'} width={40} height={40} alt='twitter'/>
       </section>
     </footer>

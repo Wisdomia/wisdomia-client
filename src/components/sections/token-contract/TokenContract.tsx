@@ -10,14 +10,14 @@ const TokenInfo = ({ title, data, isAddress = false,fullAddress }: { title: stri
             <span className={styles.tiTtile}>{title}:</span>
             <div className={styles.addrAndCopy}>
             <span className={styles.tiData}>{data}</span>
-            {isAddress && <CopyButton addr={fullAddress?fullAddress:data}/>}
+            {/* {isAddress && <CopyButton addr={fullAddress?fullAddress:data}/>} */}
             </div>
         </div>
     )
 }
 
 const TokenContract = () => {
-    const fullAddress = '0x0000000000000000000000000000000000000000000';
+    const fullAddress = 'Comming soon!';
     const [displayedAddress, setDisplayedAddress] = useState(fullAddress);
 
     useEffect(() => {
@@ -46,7 +46,7 @@ const TokenContract = () => {
                 <div className={styles.tokenInfosBasics}>
                 <TokenInfo title='Network' data='Solana' />
                 <TokenInfo title='Token Symbol' data='WSDM' />
-                <TokenInfo title='Decimal' data='18' />
+                <TokenInfo title='Decimal' data='Comming soon!' />
                 </div>
                 <div className={styles.addressHolder}>
                 <TokenInfo title='Address' data={displayedAddress} isAddress={true} fullAddress={fullAddress}/>

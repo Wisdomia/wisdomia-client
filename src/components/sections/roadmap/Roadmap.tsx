@@ -3,7 +3,6 @@ import styles from './roadmap.module.css'
 import RoadmapLine from '@/components/roadmap-line/RoadmapLine'
 
 const checkpoints = [
- { roadmapCheckpoint: 'Create Telegram', isDone: true },
  { roadmapCheckpoint: 'Create Twitter', isDone: true },
  { roadmapCheckpoint: 'Build Website', isDone: true },
  { roadmapCheckpoint: 'Launch $WSDM Token', isDone: false },
