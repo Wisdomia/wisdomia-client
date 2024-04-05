@@ -10,6 +10,9 @@ const allocationData:ITokenomicBoxProps[] = [{
 },{
   name: "Listings",
   allocation:13,
+},{
+  name:"Community sale",
+  allocation:5
 },
 {
   name:"Team",
@@ -17,9 +20,6 @@ const allocationData:ITokenomicBoxProps[] = [{
 },{
   name:"Marketing",
   allocation:3,
-},{
-  name:"Community sale",
-  allocation:5
 }
 ]
 
@@ -29,7 +29,7 @@ const Tokenomics = ({ innerRef }:{innerRef:any}) => {
         <TokenomicsBox data={allocationData} />
         <div className={styles.learnMore}>
         <p>Total Supply: 850.000.000</p>
-        <CustomButton text='Learn more' link='tokenomics.wisdomia.vip'/>
+        {/* <CustomButton text='Learn more' link='tokenomics.wisdomia.vip'/> */}
         </div>
     </div>
   )

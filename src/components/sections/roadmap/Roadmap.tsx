@@ -5,8 +5,8 @@ import RoadmapLine from '@/components/roadmap-line/RoadmapLine'
 const checkpoints = [
  { roadmapCheckpoint: 'Create Twitter', isDone: true },
  { roadmapCheckpoint: 'Build Website', isDone: true },
+ { roadmapCheckpoint: 'Create Telegram', isDone: true },
  { roadmapCheckpoint: 'Grow Community', isDone: false },
- { roadmapCheckpoint: 'Create Telegram', isDone: false },
  { roadmapCheckpoint: 'Launch $WSDM Token', isDone: false },
  { roadmapCheckpoint: 'Raydium LP', isDone: false },
  { roadmapCheckpoint: 'Coingecko Listing', isDone: false },
