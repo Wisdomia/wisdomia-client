@@ -6,20 +6,25 @@ import CustomButton from '@/components/custom-buttom/CustomButton'
 
 const allocationData:ITokenomicBoxProps[] = [{
   name:"Liquidity Pool",
-  allocation:72
-},{
-  name: "Listings",
-  allocation:13,
+  allocation:70
 },{
   name:"Community sale",
-  allocation:5
+  allocation:10
+},
+{
+  name: "Listings",
+  allocation:5,
+},
+{
+  name: "Airdrops",
+  allocation:5,
 },
 {
   name:"Team",
-  allocation:4,
+  allocation:5,
 },{
   name:"Marketing",
-  allocation:3,
+  allocation:5,
 }
 ]
 
