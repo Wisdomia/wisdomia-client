@@ -33,7 +33,7 @@ const Tokenomics = ({ innerRef }:{innerRef:any}) => {
     <div ref={innerRef}  className={`${styles.tokenomics}`}>
         <TokenomicsBox data={allocationData} />
         <div className={styles.learnMore}>
-        <p>Total Supply: 850.000.000</p>
+        <p>Total Supply: 750.000.000</p>
         {/* <CustomButton text='Learn more' link='tokenomics.wisdomia.vip'/> */}
         </div>
     </div>
