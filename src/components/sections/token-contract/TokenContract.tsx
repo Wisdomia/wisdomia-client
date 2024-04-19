@@ -3,11 +3,14 @@ import React, { useEffect, useState } from 'react'
 import styles from './tokenContract.module.css'
 import CustomButton from '@/components/custom-buttom/CustomButton'
 import CopyButton from '@/components/copy-button/CopyButton'
+import Image from 'next/image'
 
 const TokenInfo = ({ title, data, isAddress = false,fullAddress }: { title: string, data: string,isAddress?:boolean,fullAddress?:string }) => {
     return (
         <div className={styles.tokenInfo}>
-            <span className={styles.tiTtile}>{title}:</span>
+            <span className={styles.tiTtile}>
+                {title}:
+            </span>
             <div className={styles.addrAndCopy}>
             <span className={styles.tiData}>{data}</span>
             {/* {isAddress && <CopyButton addr={fullAddress?fullAddress:data}/>} */}
@@ -44,9 +47,16 @@ const TokenContract = () => {
             <span>Use the contract information below to add the $WSDM token to your wallet.</span>
             <div className={styles.tokenInfos}>
                 <div className={styles.tokenInfosBasics}>
-                <TokenInfo title='Network' data='Solana' />
+                <Image
+                style={{
+                    cursor:'pointer'
+                }}
+                 onClick={()=>{
+                    window.open('https://nibiru.fi/',"_blank")
+                }} src={'/nibi.png'} width={100} height={100} alt='nibiru' />
+                <TokenInfo title='Network' data='Nibiru' />
                 <TokenInfo title='Token Symbol' data='WSDM' />
-                <TokenInfo title='Decimal' data='Comming soon!' />
+                <TokenInfo title='Decimal' data='6' />
                 </div>
                 <div className={styles.addressHolder}>
                 <TokenInfo title='Address' data={displayedAddress} isAddress={true} fullAddress={fullAddress}/>
