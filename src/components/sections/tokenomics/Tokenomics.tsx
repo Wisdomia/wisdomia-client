@@ -8,7 +8,7 @@ const allocationData:ITokenomicBoxProps[] = [{
   allocation:70
 },
 {
-  name: "Project Development",
+  name: "Development",
   allocation:15,
 },
 {
