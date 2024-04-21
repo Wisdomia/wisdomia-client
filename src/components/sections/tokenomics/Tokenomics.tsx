@@ -5,15 +5,11 @@ import { ITokenomicBoxProps } from '@/types'
 
 const allocationData:ITokenomicBoxProps[] = [{
   name:"Liquidity Pool",
-  allocation:70
+  allocation:85
 },
 {
   name: "Development",
-  allocation:15,
-},
-{
-  name:"Community sale",
-  allocation:10
+  allocation:10,
 },
 {
   name:"Marketing",
