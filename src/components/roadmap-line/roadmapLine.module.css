@@ -39,12 +39,22 @@
   z-index: 3; 
 }
 
-.checkpoint span {
+.checkpointText{
   color: white;
   margin-left: 10px;
   white-space: nowrap;
 }
 
+
+.roadmapCheckpointTextWithLink {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.roadmapCheckpointTextWithLink:hover {
+  text-decoration: underline;
+
+}
 
 @media (max-width:450px){
   .roadmapLine{

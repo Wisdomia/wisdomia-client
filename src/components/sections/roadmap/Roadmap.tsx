@@ -1,22 +1,22 @@
 import React from 'react'
 import styles from './roadmap.module.css'
-import RoadmapLine from '@/components/roadmap-line/RoadmapLine'
+import RoadmapLine, { Checkpoint } from '@/components/roadmap-line/RoadmapLine'
 
-const checkpoints = [
- { roadmapCheckpoint: 'Create Twitter', isDone: true },
+const checkpoints:Checkpoint[] = [
+ { link:"https://twitter.com/wisdomiacoin", roadmapCheckpoint: 'Create Twitter', isDone: true },
  { roadmapCheckpoint: 'Build Website', isDone: true },
- { roadmapCheckpoint: 'Create Telegram', isDone: true },
- { roadmapCheckpoint: 'Open Source Github', isDone: true },
- { roadmapCheckpoint: 'Grow Community', isDone: false },
- { roadmapCheckpoint: 'Launch $WSDM Token', isDone: false },
- { roadmapCheckpoint: 'Nitoshi DEX', isDone: false },
- { roadmapCheckpoint: 'Coingecko Listing', isDone: false },
- { roadmapCheckpoint: 'Dex Screener Listing', isDone: false },
- { roadmapCheckpoint: 'Dex Tools Listing', isDone: false },
- { roadmapCheckpoint: 'CoinMarketCap Listing', isDone: false },
- { roadmapCheckpoint: 'CEX Listing (MEXC)', isDone: false },
- { roadmapCheckpoint: 'Launch Discord', isDone: false },
- { roadmapCheckpoint: 'Wisdomia Platform', isDone: false }
+ { link:"https://t.me/+5Nj99lQw3JVkOWNk", roadmapCheckpoint: 'Create Telegram', isDone: true },
+ { link:"https://github.com/Wisdomia", roadmapCheckpoint: 'Open Source Github', isDone: true },
+ { link:"", roadmapCheckpoint: 'Grow Community', isDone: false },
+ { link:"", roadmapCheckpoint: 'Launch $WSDM Token', isDone: false },
+ { link:"", roadmapCheckpoint: 'Nitoshi DEX', isDone: false },
+ { link:"", roadmapCheckpoint: 'Coingecko Listing', isDone: false },
+ { link:"", roadmapCheckpoint: 'Dex Screener Listing', isDone: false },
+ { link:"", roadmapCheckpoint: 'Dex Tools Listing', isDone: false },
+ { link:"", roadmapCheckpoint: 'CoinMarketCap Listing', isDone: false },
+ { link:"", roadmapCheckpoint: 'CEX Listing (MEXC)', isDone: false },
+ { link:"", roadmapCheckpoint: 'Launch Discord', isDone: false },
+ { link:"https://app.wisdomia.vip/", roadmapCheckpoint: 'Wisdomia Platform', isDone: false }
 ]
 
 const Roadmap = ({ innerRef }:{innerRef:any}) => {

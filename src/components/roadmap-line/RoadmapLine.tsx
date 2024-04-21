@@ -2,9 +2,10 @@ import React from 'react';
 import styles from './roadmapLine.module.css';
 import Image from 'next/image';
 
-interface Checkpoint {
+export interface Checkpoint {
   roadmapCheckpoint: string;
   isDone: boolean;
+  link?:string;
 }
 
 interface CheckpointCircleProps {
@@ -19,7 +20,7 @@ interface RoadmapLineProps {
   checkpoints: Checkpoint[];
 }
 
-const RoadmapLine: React.FC<RoadmapLineProps> = ({ checkpoints }) => {
+const RoadmapLine: React.FC<RoadmapLineProps> = ({ checkpoints }:{checkpoints:Checkpoint[]}) => {
   const doneCount = checkpoints.filter(c => c.isDone).length;
   const fillHeight = (doneCount / checkpoints.length) * 100;
 
@@ -30,7 +31,14 @@ const RoadmapLine: React.FC<RoadmapLineProps> = ({ checkpoints }) => {
         <div className={styles.checkpoint} style={{ top: `${(index / checkpoints.length) * 100}%` }} key={index}>
           <CheckpointCircle isDone={checkpoint.isDone} />
           <Image style={{ filter: checkpoint.isDone?"invert(100)":'', marginLeft: '20px' }} src={'/tick.png'} width={30} height={30} alt='tick' />
-          <span>{checkpoint.roadmapCheckpoint}</span>
+          {checkpoint.link ? 
+            <a href={checkpoint.link} target="_blank" rel="noopener noreferrer" className={`${styles.roadmapCheckpointTextWithLink} ${styles.checkpointText}`}>
+              {checkpoint.roadmapCheckpoint}
+            </a> :
+            <span className={`${styles.checkpointText}`}>
+              {checkpoint.roadmapCheckpoint}
+            </span>
+          }
         </div>
       ))}
     </div>
