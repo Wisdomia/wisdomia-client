@@ -2,12 +2,13 @@
 import React from 'react'
 import styles from './textButton.module.css'
 
-const TextButton = ({text,refElement,scrollFn,useAsLink,link}:{text:string,refElement:any,scrollFn:any,useAsLink?:boolean,link?:string}) => {
+const TextButton = ({text,refElement,scrollFn,useAsLink,link}:{text:string,refElement?:any,scrollFn:any,useAsLink?:boolean,link?:string}) => {
   const handleClick = () =>{
     if(useAsLink){
       window.open(link,'_blank')
       return;
     }
+    if(refElement)
     scrollFn(refElement);
   } 
 
