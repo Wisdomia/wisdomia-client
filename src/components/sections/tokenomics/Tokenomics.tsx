@@ -5,16 +5,12 @@ import { ITokenomicBoxProps } from '@/types'
 
 const allocationData:ITokenomicBoxProps[] = [{
   name:"Liquidity Pool",
-  allocation:85
+  allocation:91
 },
 {
   name: "Development",
-  allocation:10,
+  allocation:9,
 },
-{
-  name:"Marketing",
-  allocation:5,
-}
 ]
 
 const Tokenomics = ({ innerRef }:{innerRef:any}) => {
