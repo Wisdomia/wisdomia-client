@@ -6,6 +6,7 @@ const checkpoints = [
  { roadmapCheckpoint: 'Create Twitter', isDone: true },
  { roadmapCheckpoint: 'Build Website', isDone: true },
  { roadmapCheckpoint: 'Create Telegram', isDone: true },
+ { roadmapCheckpoint: 'Open Source Github', isDone: true },
  { roadmapCheckpoint: 'Grow Community', isDone: false },
  { roadmapCheckpoint: 'Launch $WSDM Token', isDone: false },
  { roadmapCheckpoint: 'Nitoshi DEX', isDone: false },
@@ -15,7 +16,6 @@ const checkpoints = [
  { roadmapCheckpoint: 'CoinMarketCap Listing', isDone: false },
  { roadmapCheckpoint: 'CEX Listing (MEXC)', isDone: false },
  { roadmapCheckpoint: 'Launch Discord', isDone: false },
- { roadmapCheckpoint: 'Open Source Github', isDone: false },
  { roadmapCheckpoint: 'Wisdomia Platform', isDone: false }
 ]
 
