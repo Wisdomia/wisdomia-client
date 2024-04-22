@@ -9,7 +9,7 @@ const checkpoints:Checkpoint[] = [
  { link:"https://github.com/Wisdomia", roadmapCheckpoint: 'Open Source Github', isDone: true },
  { link:"", roadmapCheckpoint: 'Grow Community', isDone: false },
  { link:"", roadmapCheckpoint: 'Launch $WSDM Token', isDone: false },
- { link:"", roadmapCheckpoint: 'Nitoshi DEX', isDone: false },
+ { link:"", roadmapCheckpoint: 'DEX Listing', isDone: false },
  { link:"", roadmapCheckpoint: 'Coingecko Listing', isDone: false },
  { link:"", roadmapCheckpoint: 'Dex Screener Listing', isDone: false },
  { link:"", roadmapCheckpoint: 'Dex Tools Listing', isDone: false },
