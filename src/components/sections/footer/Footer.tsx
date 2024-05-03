@@ -39,7 +39,7 @@ const Footer = () => {
         <TextButton scrollFn={scrollToRef} refElement={tokenomicsRef} text='Tokenomics'/>
         <TextButton scrollFn={scrollToRef} refElement={benefitsRef} text='Benefits'/>
         <TextButton scrollFn={scrollToRef} refElement={roadmapRef} text='Roadmap'/>
-        <TextButton scrollFn={scrollToRef} useAsLink={true} link='https://www.linkedin.com/in/nikola-bozin/' text='Owner'/>
+        <TextButton scrollFn={scrollToRef} useAsLink={true} link='https://www.linkedin.com/in/nikola-bozin/' text='Developer'/>
       </section>
       <section className={styles.socials}>
         <Image style={{filter:'invert(100)'}} onClick={()=>{handleClick("https://github.com/Wisdomia")}} className={styles.socialImage} src={'/github.png'} width={32} height={32} alt='telegram'/>

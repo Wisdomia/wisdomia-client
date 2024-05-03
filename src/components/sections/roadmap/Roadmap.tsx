@@ -14,9 +14,9 @@ const checkpoints:Checkpoint[] = [
  { link:"", roadmapCheckpoint: 'Dex Screener Listing', isDone: false },
  { link:"", roadmapCheckpoint: 'Dex Tools Listing', isDone: false },
  { link:"", roadmapCheckpoint: 'CoinMarketCap Listing', isDone: false },
- { link:"", roadmapCheckpoint: 'CEX Listing (MEXC)', isDone: false },
  { link:"", roadmapCheckpoint: 'Launch Discord', isDone: false },
- { link:"https://app.wisdomia.vip/", roadmapCheckpoint: 'Wisdomia Platform', isDone: false }
+ { link:"https://app.wisdomia.vip/", roadmapCheckpoint: 'Wisdomia Platform', isDone: false },
+ { link:"", roadmapCheckpoint: 'CEX Listing (MEXC)', isDone: false },
 ]
 
 const Roadmap = ({ innerRef }:{innerRef:any}) => {
