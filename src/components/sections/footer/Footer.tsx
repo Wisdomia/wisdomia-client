@@ -44,7 +44,7 @@ const Footer = () => {
       <section className={styles.socials}>
         <Image style={{filter:'invert(100)'}} onClick={()=>{handleClick("https://github.com/Wisdomia")}} className={styles.socialImage} src={'/github.png'} width={32} height={32} alt='telegram'/>
         <Image onClick={()=>{handleClick("https://twitter.com/wisdomiacoin")}} className={styles.socialImage} src={'/twitter.png'} width={40} height={40} alt='twitter'/>
-        <Image onClick={()=>{handleClick("https://t.me/+5Nj99lQw3JVkOWNk")}} className={styles.socialImage} src={'/telegram.png'} width={30} height={30} alt='telegram'/>
+        <Image onClick={()=>{handleClick("https://t.me/wisdomia_public")}} className={styles.socialImage} src={'/telegram.png'} width={30} height={30} alt='telegram'/>
       </section>
     </footer>
   )
