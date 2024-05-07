@@ -9,6 +9,8 @@ import Welcome from "@/components/welcome/Welcome";
 import { ScrollProvider, useScroll } from "./context"; 
 import TokenContract from '@/components/sections/token-contract/TokenContract';
 
+export const runtime = "edge"
+
 const Sections = () => {
   const { welcomeRef, aboutRef, tokenomicsRef, benefitsRef, roadmapRef } = useScroll();
 
