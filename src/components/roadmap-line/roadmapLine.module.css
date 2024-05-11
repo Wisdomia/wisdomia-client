@@ -56,19 +56,25 @@
 
 }
 
-@media (max-width:450px){
+@media (max-width:490px){
   .roadmapLine{
     transform: translateX(-4rem);
   }
 }
 
 
-@media (max-width:325px){
+@media (max-width:350px){
   .roadmapLine{
-    transform: translateX(-5.5rem);
+    transform: translateX(-6.0rem);
   }
   .checkpoint >span{
     margin-left: 5px;
   }
 
+}
+
+@media (max-width:315px){
+  .roadmapLine{
+    transform: translateX(-6.5rem);
+  }
 }
