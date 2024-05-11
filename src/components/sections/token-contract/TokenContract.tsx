@@ -47,16 +47,16 @@ const TokenContract = () => {
             <span>Use the contract information below to add the $WSDM token to your wallet.</span>
             <div className={styles.tokenInfos}>
                 <div className={styles.tokenInfosBasics}>
-                <Image
+                {/* <Image
                 style={{
                     cursor:'pointer'
                 }}
                  onClick={()=>{
                     window.open('https://nibiru.fi/',"_blank")
-                }} src={'/nibi.png'} width={100} height={100} alt='nibiru' />
-                <TokenInfo title='Network' data='Nibiru' />
+                }} src={'/nibi.png'} width={100} height={100} alt='nibiru' /> */}
+                <TokenInfo title='Network' data='Solana' />
                 <TokenInfo title='Token Symbol' data='WSDM' />
-                <TokenInfo title='Decimal' data='6' />
+                <TokenInfo title='Decimal' data='9' />
                 </div>
                 <div className={styles.addressHolder}>
                 <TokenInfo title='Address' data={displayedAddress} isAddress={true} fullAddress={fullAddress}/>
