@@ -20,6 +20,7 @@ const checkpoints:Checkpoint[] = [
  { link:"", roadmapCheckpoint: 'Launch Discord', isDone: false },
  { link:"https://app.wisdomia.vip/", roadmapCheckpoint: 'Wisdomia Platform', isDone: false },
  { link:"", roadmapCheckpoint: 'CEX Listing (MEXC)', isDone: false },
+ { link:"", roadmapCheckpoint: 'Udemy Course - Wisdomia Development', isDone: false },
 ]
 
 const Roadmap = ({ innerRef }:{innerRef:any}) => {
