@@ -12,12 +12,16 @@ const allocationData:ITokenomicBoxProps[] = [{
   allocation:4
 },
 {
-  name:"Development",
-  allocation:3,
+  name:'Airdrops',
+  allocation:2
+},
+{
+  name:"Partnerships",
+  allocation:1,
 },
 {
   name: "Team",
-  allocation:2,
+  allocation:1,
 },
 ]
 
