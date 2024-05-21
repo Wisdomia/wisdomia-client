@@ -14,7 +14,7 @@ const checkpoints:Checkpoint[] = [
  { link:"", roadmapCheckpoint: 'Birdeye Listing', isDone: false },
  { link:"", roadmapCheckpoint: 'Dex Screener Listing', isDone: false },
  { link:"", roadmapCheckpoint: 'Dex Tools Listing', isDone: false },
- { link:"https://rugcheck.xyz/", roadmapCheckpoint: 'High RugCheck Score', isDone:false},
+ { link:"https://rugcheck.xyz/", roadmapCheckpoint: 'Good RugCheck Score', isDone:false},
  { link:"", roadmapCheckpoint: 'Jupiter Strict List', isDone: false },
  { link:"", roadmapCheckpoint: 'Bubblemaps Listing', isDone: false },
  { link:"", roadmapCheckpoint: 'CoinMarketCap Listing', isDone: false },
