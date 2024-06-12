@@ -13,3 +13,8 @@
     font-size: clamp(2.5rem, 2.14rem + 1.7999999999999998vw, 4.3rem);
 }
 
+@media (max-width:360px){
+    .xad{
+        flex-direction: column;
+    }
+}

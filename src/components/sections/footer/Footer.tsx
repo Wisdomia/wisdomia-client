@@ -8,9 +8,6 @@ import TextButton from '@/components/text-button/TextButton'
 import Image from 'next/image'
 import CustomButton from '@/components/custom-buttom/CustomButton'
 
-const footerLinkData:IFooterLinkData[] = [
-]
-
 const Footer = () => {
   const handleClick = (link:string) => {
     window.open(link, '_blank');
